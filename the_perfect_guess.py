@@ -5,9 +5,7 @@
 import random
 
 n = random.randint(0, 100)
-
 user = -1
-
 guess = 0
 
 while(user != n):
@@ -21,4 +19,4 @@ while(user != n):
         print("higher number please")
     
     else:
-        print(f"you have guessed the correct number and you took the {guess} chances to guess the number")
+        print(f"you have guessed the correct number {n} and you took the {guess} chances to guess the number")
